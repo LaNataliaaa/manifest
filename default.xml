@@ -15,6 +15,10 @@
   <remote  name="github"
            fetch="https://github.com"/>
 
+  <remote  name="mtg"
+           fetch="https://github.com/MindTheGapps/"
+           revision="master" />
+
   <default revision="refs/tags/LA.UM.6.4.r1-06900-8x98.0"
            remote="caf"
            sync-j="52"

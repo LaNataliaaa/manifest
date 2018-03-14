@@ -67,6 +67,7 @@
 
   <!-- Vendor -->
   <project path="vendor/bbq" name="vendor_bbq" remote="bbq" />
+  <project path="vendor/gapps" name="vendor_gapps" remote="mtg" />
 
   <!-- Obsolete Packages -->
   <remove-project name="abl/tianocore/edk2"/>

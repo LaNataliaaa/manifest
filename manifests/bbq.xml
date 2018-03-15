@@ -32,6 +32,8 @@
   <project path="device/qcom/common" name="device_qcom_common" remote="bbq" />
   <remove-project name="device/qcom/sepolicy" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="bbq" />
+  <remove-project name="platform/hardware/qcom/bootctrl"/>
+  <project path="hardware/qcom/bootctrl" name="hardware_qcom_bootctrl" remote="bbq" />
   <remove-project name="platform/hardware/qcom/bt"/>
   <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="bbq" />
   <remove-project name="platform/hardware/interfaces" />

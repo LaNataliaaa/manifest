@@ -59,6 +59,10 @@
   <remove-project name="platform/frameworks/rs" />
   <project path="frameworks/rs" name="frameworks_rs" remote="bbq" />
 
+  <!-- Packages -->
+  <remove-project name="platform/packages/apps/Nfc" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="bbq" />
+
   <!-- System -->
   <remove-project name="platform/system/bt" />
   <project path="system/bt" name="system_bt" remote="bbq" />
@@ -66,6 +70,8 @@
   <project path="system/core" name="system_core" remote="bbq" />
   <remove-project name="platform/system/connectivity/wificond" />
   <project path="system/connectivity/wificond" name="system_connectivity_wificond" remote="bbq" />
+  <remove-project name="platform/system/nfc" />
+  <project path="system/nfc" name="system_nfc" remote="bbq" />
   <remove-project name="platform/system/sepolicy" />
   <project path="system/sepolicy" name="system_sepolicy" remote="bbq" />
   <remove-project name="platform/system/tools/hidl" />

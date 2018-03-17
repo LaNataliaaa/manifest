@@ -77,9 +77,16 @@
   <remove-project name="platform/system/tools/hidl" />
   <project path="system/tools/hidl" name="system_tools_hidl" remote="bbq" />
 
+  <!-- Toolchains -->
+  <remove-project name="platform/prebuilts/clang/host/linux-x86" />
+  <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="bbq" />
+  <project path="prebuilts/clang/host/linux-x86/clang-4639204" name="prebuilts_clang_host_linux-x86_clang-4639204" remote="bbq" />
+
   <!-- Vendor -->
   <project path="vendor/bbq" name="vendor_bbq" remote="bbq" />
   <project path="vendor/gapps" name="vendor_gapps" remote="mtg" />
+  <remove-project name="platform/system/qcom" />
+  <project path="vendor/qcom/opensource/softap" name="vendor_qcom_opensource_softap" remote="bbq" />
 
   <!-- Obsolete Packages -->
   <remove-project name="abl/tianocore/edk2"/>

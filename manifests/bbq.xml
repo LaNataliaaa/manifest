@@ -70,6 +70,8 @@
   <project path="system/core" name="system_core" remote="bbq" />
   <remove-project name="platform/system/connectivity/wificond" />
   <project path="system/connectivity/wificond" name="system_connectivity_wificond" remote="bbq" />
+  <remove-project name="platform/system/netd" />
+  <project path="system/netd" name="system_netd" remote="bbq" />
   <remove-project name="platform/system/nfc" />
   <project path="system/nfc" name="system_nfc" remote="bbq" />
   <remove-project name="platform/system/sepolicy" />

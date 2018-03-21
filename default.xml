@@ -19,7 +19,7 @@
            fetch="https://github.com/MindTheGapps/"
            revision="master" />
 
-  <default revision="refs/tags/LA.UM.6.4.r1-06900-8x98.0"
+  <default revision="refs/tags/LA.UM.6.5.r1-06700-8x96.0"
            remote="caf"
            sync-j="52"
            sync-c="true"/>
